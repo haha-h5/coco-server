@@ -5,7 +5,7 @@ module.exports = {
     port: 3306,
     database: 'coco',
     username: 'root',
-    password: 'root1234',
+    password: '123456abc',
     logging: false
   },
   cors: {
@@ -17,9 +17,6 @@ module.exports = {
       enable: false,
       ignoreJSON: true
     },
-    domainWhiteList: [
-      'http://localhost:8080',
-      'http://aaa.coco-h5.cn:8080'
-    ]
+    domainWhiteList: ['http://localhost:8080', 'http://aaa.coco-h5.cn:8080']
   }
 };
